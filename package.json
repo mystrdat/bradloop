@@ -4,19 +4,18 @@
   "description": "",
   "main": "",
   "scripts": {
-    "start": "http-server -d false -p 3000",
-    "postinstall": "npm run start"
+    "start": "./run.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mystrdat/bradloop.git"
+    "url": "git+https://github.com/salsita/bradloop.git"
   },
   "author": "mystrdat",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mystrdat/bradloop/issues"
+    "url": "https://github.com/salsita/bradloop/issues"
   },
-  "homepage": "https://github.com/mystrdat/bradloop#readme",
+  "homepage": "https://github.com/salsita/bradloop#readme",
   "dependencies": {
     "http-server": "^0.11.1"
   }
