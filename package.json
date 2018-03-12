@@ -1,0 +1,23 @@
+{
+  "name": "bradloop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "http-server -d false -p 3000",
+    "postinstall": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mystrdat/bradloop.git"
+  },
+  "author": "mystrdat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mystrdat/bradloop/issues"
+  },
+  "homepage": "https://github.com/mystrdat/bradloop#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
