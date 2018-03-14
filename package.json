@@ -4,18 +4,19 @@
   "description": "",
   "main": "",
   "scripts": {
-    "start": "./run.sh"
+    "start": "http-server -d false -p 3000",
+    "postinstall": "npm run start"	
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/salsita/bradloop.git"
+    "url": "git+https://github.com/salsita/salsita-calendars.git"
   },
   "author": "mystrdat",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/salsita/bradloop/issues"
+    "url": "https://github.com/salsita/salsita-calendars/issues"
   },
-  "homepage": "https://github.com/salsita/bradloop#readme",
+  "homepage": "https://github.com/salsita/salsita-calendars#readme",
   "dependencies": {
     "http-server": "^0.11.1"
   }
