@@ -1,11 +1,11 @@
 {
-  "name": "bradloop",
+  "name": "salsita-calendars",
   "version": "1.0.0",
   "description": "",
   "main": "",
   "scripts": {
     "start": "http-server -d false -p 3000",
-    "postinstall": "npm run start"	
+    "heroku-postbuild": "./sed-2-heroku.sh"
   },
   "repository": {
     "type": "git",
